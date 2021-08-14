@@ -1,20 +1,32 @@
-module Main exposing (..)
+module Main exposing (main)
 
 import Browser
-import Html exposing (Html, text, div, h1, img)
-import Html.Attributes exposing (src)
+import Html exposing (Html, button, div, iframe, input, text)
+import Html.Attributes as Attributes
+import Html.Events exposing (onClick, onInput)
+
 
 
 ---- MODEL ----
 
 
 type alias Model =
-    {}
+    { input : String
+    , query : String
+    }
+
+
+initValues =
+    { main = "fEl" }
 
 
 init : ( Model, Cmd Msg )
 init =
-    ( {}, Cmd.none )
+    ( { input = initValues.main
+      , query = initValues.main
+      }
+    , Cmd.none
+    )
 
 
 
@@ -22,12 +34,18 @@ init =
 
 
 type Msg
-    = NoOp
+    = ChangeInput String
+    | Submit
 
 
 update : Msg -> Model -> ( Model, Cmd Msg )
 update msg model =
-    ( model, Cmd.none )
+    case msg of
+        ChangeInput text ->
+            ( { model | input = text }, Cmd.none )
+
+        Submit ->
+            ( { model | query = model.input }, Cmd.none )
 
 
 
@@ -37,8 +55,9 @@ update msg model =
 view : Model -> Html Msg
 view model =
     div []
-        [ img [ src "/logo.svg" ] []
-        , h1 [] [ text "Your Elm App is working!" ]
+        [ input [ Attributes.value model.input, onInput ChangeInput ] []
+        , button [ onClick Submit ] [ text "SUBMIT" ]
+        , iframe [ Attributes.src ("http://ejtaal.net/aa#q=" ++ model.query), Attributes.id "custom-iframe" ] []
         ]
 
 
