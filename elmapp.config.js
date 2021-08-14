@@ -1,4 +1,4 @@
 // and the home page field to the other fields if required:
 module.exports = {
-    homepage: "https://ccdatatraits.github.io/arabic-dict"
+    homepage: "https://ccdatatraits.github.io/iframing-arabic-dictionary"
 }
