@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/arabic-dict/precache-manifest.de9e912b74e6f8a80f5b9533fb417905.js"
+  "/iframing-arabic-dictionary/precache-manifest.b941b8c86104ba8e70af81515056267d.js"
 );
 
 workbox.core.skipWaiting();

@@ -1,15 +1,15 @@
 {
-  "main.css": "/arabic-dict/static/css/main.dea26371.chunk.css",
-  "main.js": "/arabic-dict/static/js/main.02975b99.chunk.js",
-  "main.js.map": "/arabic-dict/static/js/main.02975b99.chunk.js.map",
-  "runtime~main.js": "/arabic-dict/static/js/runtime~main.ebe5c0a7.js",
-  "runtime~main.js.map": "/arabic-dict/static/js/runtime~main.ebe5c0a7.js.map",
-  "vendors~main.js": "/arabic-dict/static/js/vendors~main.0b49ec49.chunk.js",
-  "vendors~main.js.map": "/arabic-dict/static/js/vendors~main.0b49ec49.chunk.js.map",
-  "./service-worker.js": "/arabic-dict/./service-worker.js",
-  "favicon.ico": "/arabic-dict/favicon.ico",
-  "index.html": "/arabic-dict/index.html",
-  "logo.svg": "/arabic-dict/logo.svg",
-  "manifest.json": "/arabic-dict/manifest.json",
-  "precache-manifest.de9e912b74e6f8a80f5b9533fb417905.js": "/arabic-dict/precache-manifest.de9e912b74e6f8a80f5b9533fb417905.js"
+  "main.css": "/iframing-arabic-dictionary/static/css/main.dea26371.chunk.css",
+  "main.js": "/iframing-arabic-dictionary/static/js/main.44a51879.chunk.js",
+  "main.js.map": "/iframing-arabic-dictionary/static/js/main.44a51879.chunk.js.map",
+  "runtime~main.js": "/iframing-arabic-dictionary/static/js/runtime~main.5dfb18a3.js",
+  "runtime~main.js.map": "/iframing-arabic-dictionary/static/js/runtime~main.5dfb18a3.js.map",
+  "vendors~main.js": "/iframing-arabic-dictionary/static/js/vendors~main.0b49ec49.chunk.js",
+  "vendors~main.js.map": "/iframing-arabic-dictionary/static/js/vendors~main.0b49ec49.chunk.js.map",
+  "./service-worker.js": "/iframing-arabic-dictionary/./service-worker.js",
+  "favicon.ico": "/iframing-arabic-dictionary/favicon.ico",
+  "index.html": "/iframing-arabic-dictionary/index.html",
+  "logo.svg": "/iframing-arabic-dictionary/logo.svg",
+  "manifest.json": "/iframing-arabic-dictionary/manifest.json",
+  "precache-manifest.b941b8c86104ba8e70af81515056267d.js": "/iframing-arabic-dictionary/precache-manifest.b941b8c86104ba8e70af81515056267d.js"
 }
