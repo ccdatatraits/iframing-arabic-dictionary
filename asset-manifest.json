@@ -1,0 +1,15 @@
+{
+  "main.css": "/arabic-dict/static/css/main.dea26371.chunk.css",
+  "main.js": "/arabic-dict/static/js/main.02975b99.chunk.js",
+  "main.js.map": "/arabic-dict/static/js/main.02975b99.chunk.js.map",
+  "runtime~main.js": "/arabic-dict/static/js/runtime~main.ebe5c0a7.js",
+  "runtime~main.js.map": "/arabic-dict/static/js/runtime~main.ebe5c0a7.js.map",
+  "vendors~main.js": "/arabic-dict/static/js/vendors~main.0b49ec49.chunk.js",
+  "vendors~main.js.map": "/arabic-dict/static/js/vendors~main.0b49ec49.chunk.js.map",
+  "./service-worker.js": "/arabic-dict/./service-worker.js",
+  "favicon.ico": "/arabic-dict/favicon.ico",
+  "index.html": "/arabic-dict/index.html",
+  "logo.svg": "/arabic-dict/logo.svg",
+  "manifest.json": "/arabic-dict/manifest.json",
+  "precache-manifest.de9e912b74e6f8a80f5b9533fb417905.js": "/arabic-dict/precache-manifest.de9e912b74e6f8a80f5b9533fb417905.js"
+}
